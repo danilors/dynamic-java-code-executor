@@ -1,0 +1,11 @@
+br/com/dynamic/code/strategies/impl/FileCleanupStrategy.class
+br/com/dynamic/code/strategies/CleanupStrategy.class
+br/com/dynamic/code/compilers/CodeCompiler.class
+br/com/dynamic/code/sources/impl/StringSource.class
+br/com/dynamic/code/sources/CodeSource.class
+br/com/dynamic/code/compilers/impl/JavaStringCompiler.class
+br/com/dynamic/code/executors/ReflectionClassExecutor.class
+br/com/dynamic/code/sources/impl/JsonCodeSource$1.class
+br/com/dynamic/code/ExecutorJsonApplication.class
+br/com/dynamic/code/sources/impl/JsonCodeSource.class
+br/com/dynamic/code/executors/ClassExecutor.class

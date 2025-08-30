@@ -1,0 +1,3 @@
+{
+    "script": "public static java.util.Map<String, String> processValue(String value){ return java.util.Map.of(\"key\", value); }"
+}
