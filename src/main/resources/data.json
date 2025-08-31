@@ -1,3 +1,6 @@
 {
-    "script": "public static java.util.Map<String, String> processValue(String value){ return java.util.Map.of(\"key\", value); }"
+  "classes": [],
+  "addressClass": "class Address {\n    int number\n    String street\n    String toString() { return \"Address(number=$number, street='$street')\" }\n}\n",
+  "accountClass": "class Account {\n    int number\n    String toString() { return \"Account(number=$number)\" }\n}\n",
+  "mapperUtilsClass": "class MapperUtils {\n    static void putFirstAddress(Map data, Map dataTarget) {\n        if (data.address_list) {\n            def addressList = data.address_list as List\n            dataTarget.address = addressList.first()\n        }\n    }\n    static void putFirstAccount(Map data, Map dataTarget) {\n        if (data.account_list) {\n            def accountList = data.account_list as List\n            dataTarget.account = accountList.first()\n        }\n    }\n}\n"
 }
